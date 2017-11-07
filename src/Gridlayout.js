@@ -16,7 +16,7 @@ class Gridlayout extends Component {
     }
     render() {
         const layout = [
-            {i: 'a', x: 0, y: 0, w: 25, h: 11, static: true},
+            {i: 'a', x: 0, y: 0, w: 25, h: 130, static: true},
             {i: 'x', x: 0, y: 0, w: 25, h: 5, static: false},
             {i: 'y', x: 0, y: 0, w: 2, h: 3, static: true},
             {i: 'z', x: 0, y: 0, w: 2, h: 3, static: true},
@@ -28,7 +28,7 @@ class Gridlayout extends Component {
         return (
 
 
-            <ReactGridLayout className="layout" layout={layout} cols={24} rowHeight={30} width={1200}>
+            <ReactGridLayout className="layout" layout={layout} cols={12} rowHeight={30} width={1200}>
                 <div key = "x">
                     <Panel>
                         React simple starter
